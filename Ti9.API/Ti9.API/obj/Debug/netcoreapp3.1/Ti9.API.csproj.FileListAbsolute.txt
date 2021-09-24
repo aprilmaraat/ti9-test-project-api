@@ -1,0 +1,5 @@
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.API\obj\Debug\netcoreapp3.1\Ti9.API.csprojAssemblyReference.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.API\obj\Debug\netcoreapp3.1\Ti9.API.AssemblyInfoInputs.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.API\obj\Debug\netcoreapp3.1\Ti9.API.AssemblyInfo.cs
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.API\obj\Debug\netcoreapp3.1\Ti9.API.csproj.CoreCompileInputs.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.API\obj\Debug\netcoreapp3.1\Ti9.API.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,12 @@
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\bin\Debug\netcoreapp3.1\Ti9.Models.deps.json
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\bin\Debug\netcoreapp3.1\Ti9.Models.dll
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\bin\Debug\netcoreapp3.1\Ti9.Models.pdb
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.csprojAssemblyReference.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.AssemblyInfoInputs.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.AssemblyInfo.cs
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.csproj.CoreCompileInputs.cache
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.dll
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.pdb
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\bin\Debug\netcoreapp3.1\Ti9.Models.runtimeconfig.json
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\bin\Debug\netcoreapp3.1\Ti9.Models.runtimeconfig.dev.json
+D:\Projects\ti9-test-project-api\Ti9.API\Ti9.Models\obj\Debug\netcoreapp3.1\Ti9.Models.genruntimeconfig.cache
