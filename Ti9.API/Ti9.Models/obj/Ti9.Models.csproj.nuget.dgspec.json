@@ -10,15 +10,15 @@
         "projectUniqueName": "D:\\Projects\\ti9-test-project-api\\Ti9.API\\Ti9.Models\\Ti9.Models.csproj",
         "projectName": "Ti9.Models",
         "projectPath": "D:\\Projects\\ti9-test-project-api\\Ti9.API\\Ti9.Models\\Ti9.Models.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\april\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\ti9-test-project-api\\Ti9.API\\Ti9.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\april\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
