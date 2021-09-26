@@ -24,6 +24,7 @@ namespace Ti9.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TI9")));
+            services.AddTransient<ClientService>();
             services.AddControllers();
             services.AddCors();
         }

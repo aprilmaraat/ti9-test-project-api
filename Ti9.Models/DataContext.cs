@@ -16,7 +16,7 @@ namespace Ti9.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

@@ -14,5 +14,9 @@
     <ProjectReference Include="..\Ti9.Models\Ti9.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Helpers\Responses\" />
+  </ItemGroup>
+
 
 </Project>
