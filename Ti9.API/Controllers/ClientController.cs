@@ -35,6 +35,7 @@ namespace Ti9.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Client model)
         {
+            //var x = GetUserAgent();
             var response = await _service.Create(model);
 
             switch (response.State)

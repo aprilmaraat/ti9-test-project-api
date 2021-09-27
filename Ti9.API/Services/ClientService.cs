@@ -66,7 +66,6 @@ namespace Ti9.API
                         data.IpAddress = model.IpAddress;
                         data.OsVersion = model.OsVersion;
                         data.OnlineStatus = model.OnlineStatus;
-                        data.LocalTime = model.LocalTime;
                         data.TimeZone = model.TimeZone;
                         data.Browser = model.Browser;
                         data.Resolution = model.Resolution;
