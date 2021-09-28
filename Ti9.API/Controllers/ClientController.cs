@@ -6,7 +6,7 @@ using Microsoft.Extensions.Primitives;
 namespace Ti9.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/client")]
     public class ClientController : ControllerBase
     {
         private readonly ClientService _service;
@@ -16,9 +16,10 @@ namespace Ti9.API.Controllers
             _service = service;
         }
 
-        [HttpGet]
+        [HttpGet("list")]
         public async Task<IActionResult> List()
         {
+            GetUserAgent();
             var response = await _service.List();
 
             switch (response.State)
