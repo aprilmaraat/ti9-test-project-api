@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Ti9.Models;
+using System.Windows;
 
 namespace Ti9.API
 {
@@ -18,6 +19,7 @@ namespace Ti9.API
         {
             try
             {
+                OperatingSystem os = Environment.OSVersion;
                 var data = _context.Clients.ToList();
                 return Response<List<Client>>.Success(data);
             }
@@ -35,13 +37,15 @@ namespace Ti9.API
                 {
                     var data = _context.Clients.Any(x => x.IpAddress == model.IpAddress);
                     if (!data)
-                    {
+                    { 
                         await _context.Clients.AddAsync(model);
+                        await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
                         return Response.Success();
                     }
                     else
                     {
+                        await transaction.RollbackAsync();
                         return await Update(model);
                     }
 
@@ -71,6 +75,7 @@ namespace Ti9.API
                         data.Resolution = model.Resolution;
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
+                        return Response.Success();
                     }
 
                     return Response.Error("Client not existing.");
