@@ -19,7 +19,6 @@ namespace Ti9.API
         {
             try
             {
-                OperatingSystem os = Environment.OSVersion;
                 var data = _context.Clients.ToList();
                 return Response<List<Client>>.Success(data);
             }
@@ -35,9 +34,11 @@ namespace Ti9.API
             {
                 try
                 {
-                    var data = _context.Clients.Any(x => x.IpAddress == model.IpAddress);
-                    if (!data)
-                    { 
+                    var data = _context.Clients.FirstOrDefault(x => x.IpAddress == model.IpAddress);
+                    if (data == null)
+                    {
+                        OperatingSystem os = Environment.OSVersion;
+                        model.OsVersion = os.VersionString;
                         await _context.Clients.AddAsync(model);
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
@@ -67,12 +68,12 @@ namespace Ti9.API
 
                     if (data != null)
                     {
-                        data.IpAddress = model.IpAddress;
-                        data.OsVersion = model.OsVersion;
+                        //data.IpAddress = model.IpAddress;
+                        //data.OsVersion = model.OsVersion;
                         data.OnlineStatus = model.OnlineStatus;
-                        data.TimeZone = model.TimeZone;
-                        data.Browser = model.Browser;
-                        data.Resolution = model.Resolution;
+                        //data.TimeZone = model.TimeZone;
+                        //data.Browser = model.Browser;
+                        //data.Resolution = model.Resolution;
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
                         return Response.Success();
