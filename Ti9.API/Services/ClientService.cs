@@ -68,12 +68,8 @@ namespace Ti9.API
 
                     if (data != null)
                     {
-                        //data.IpAddress = model.IpAddress;
-                        //data.OsVersion = model.OsVersion;
+                        data.LocalTime = model.LocalTime;
                         data.OnlineStatus = model.OnlineStatus;
-                        //data.TimeZone = model.TimeZone;
-                        //data.Browser = model.Browser;
-                        //data.Resolution = model.Resolution;
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
                         return Response.Success();
